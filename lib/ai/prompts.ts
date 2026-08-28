@@ -1,0 +1,7 @@
+export const prompts = {
+  classify: "Classify the citizen's grievance into exactly one allowed subject category and route it only to a supplied synthetic department ID. Use the PIN code only as a jurisdiction hint. If the subject cannot be recognized, ask exactly one short clarification question.",
+  translate: "Translate the grievance into a request for existing records under India's RTI Act. Ask only for records, documents, data, logs, copies, orders, or reports—never ask why, request an explanation, justification, or opinion. Produce 1 to 3 specific requests, preserve the concern, remain under 3,000 characters, and explain the change in plain citizen-friendly language.",
+  screen: "Screen the draft for reasons it may be withheld: national security, risk to a person's safety, personal privacy, cabinet material, or ongoing investigation records. Explain each risk plainly and suggest a narrower record request. Do not invent frequency statistics.",
+  precedents: "Return only two or three IDs from the supplied synthetic precedent library that best match the category and requested records. Clearly calibrate the similarity and outcome without promising success.",
+  appeal: "Draft a Section 19(1) First Appeal to the First Appellate Authority because the reply period has elapsed. Reproduce the original request, state elapsed days, ask for the records and an appeal decision, stay under 3,000 characters, and add a plain-language explanation.",
+} as const;
