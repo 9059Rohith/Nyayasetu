@@ -12,13 +12,29 @@
 [![Test Matrix](https://img.shields.io/badge/TESTS-46_UNIT_%2B_15_E2E-00897B?style=for-the-badge)](#proof-not-promises)
 [![Accessibility](https://img.shields.io/badge/AXE-0_SERIOUS_ISSUES-00897B?style=for-the-badge)](#proof-not-promises)
 
-[Try the live application](https://p-001-flax.vercel.app) · [Watch the 90-second demo](#90-second-demo-script) · [Explore the architecture](#system-architecture) · [Run locally](#run-it-locally)
+[Try the live application](https://p-001-flax.vercel.app) · [Watch the complete video](#watch-the-complete-product-walkthrough) · [Explore the architecture](#system-architecture) · [Run locally](#run-it-locally)
 
 > **Developer prototype:** Uses synthetic department and precedent data, mock OTP/payment/filing flows, and never contacts a government portal. Nyaya-Setu is independent and is not affiliated with the Government of India or rtionline.gov.in.
 
 </div>
 
 ![Nyaya-Setu landing experience](docs/screenshots/01-landing-desktop.png)
+
+## Watch the complete product walkthrough
+
+The 93-second recording uses the real production deployment and demonstrates the complete citizen journey: bilingual entry, grievance capture, mock login, structured drafting, inspectable AI traces, risk screening, synthetic precedents, mock payment, prepared application, tracking, overdue status, and First Appeal.
+
+<div align="center">
+
+[![Watch the complete Nyaya-Setu product walkthrough](docs/video/Nyaya-Setu-Video-Cover.png)](docs/video/Nyaya-Setu-Complete-Demo.mp4)
+
+### [▶ Watch the complete demo video](docs/video/Nyaya-Setu-Complete-Demo.mp4)
+
+`01:33` · `1280×720` · `H.264 MP4` · Guided captions and visible cursor
+
+[Download the MP4](https://raw.githubusercontent.com/9059Rohith/Nyayasetu/main/docs/video/Nyaya-Setu-Complete-Demo.mp4) · [Open the live application](https://p-001-flax.vercel.app)
+
+</div>
 
 ---
 
